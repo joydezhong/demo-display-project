@@ -3,7 +3,11 @@
 
 安装依赖
 
-npm install 
+-> npm install 
+
+启动服务
+
+在命令窗口当前项目下 -> webpack-dev-server
 
 访问http://localhost:8080即可查看
 
