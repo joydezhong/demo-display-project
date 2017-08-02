@@ -1,27 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MediaQuery from 'react-responsive';
 
 import {Router,Route,hashHistory} from 'react-router';
 
 import { Layout, Menu, Breadcrumb } from 'antd';
 import 'antd/dist/antd.css';
 
-import PCHeader from './components/pc_header';
-import PCContent from './components/pc_content';
-import PCFooter from './components/pc_footer';
+import PCIndex from './components/pc_index';
+import MobileIndex from './components/mobile_index';
 
 const { Header, Content, Footer } = Layout;
 
 export default class Root extends React.Component{
 	render(){
 		  return (
-
-		  	<Layout>
-		  		<PCHeader />
-		  		<PCContent />
-		  		<PCFooter />
-		  	</Layout>
-
+		  	<div>
+			  	<MediaQuery query = '(min-device-width: 1224px)'>
+			  		<Layout>
+			  			<PCIndex />
+			  		</Layout>
+			  	</MediaQuery>
+			  	<MediaQuery query = '(max-device-width: 1020px)'>
+			  		<Layout>
+			  			<MobileIndex />
+			  		</Layout>
+			  	</MediaQuery>
+		  	</div>
 		);
 	};
 }

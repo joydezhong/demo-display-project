@@ -43,30 +43,30 @@ export default class PCContent extends React.Component{
 				      		<Row gutter={18}>
 				      			<Col span={2}></Col>
 								<Col span={10}>
-									<PCItems itemTitle="演示Demo一" itemSrc="" imgSrc="./src/images/web01.jpg" />
+									<PCItems itemTitle="Demo演示案例一" itemSrc="" imgSrc="./src/images/web01.jpg" />
 								</Col>
 								<Col span={10}>
-									<PCItems itemTitle="演示Demo二" itemSrc="" imgSrc="./src/images/web02.jpg" />
-								</Col>
-								<Col span={2}></Col>
-							</Row>
-							<Row gutter={18}>
-								<Col span={2}></Col>
-								<Col span={10}>
-									<PCItems itemTitle="小游戏Demo一" itemSrc="" imgSrc="./src/images/game01.png" />
-								</Col>
-								<Col span={10}>
-									<PCItems itemTitle="游戏Demo二" itemSrc="" imgSrc="./src/images/game02.jpg" />
+									<PCItems itemTitle="Demo演示案例二" itemSrc="" imgSrc="./src/images/web02.jpg" />
 								</Col>
 								<Col span={2}></Col>
 							</Row>
 							<Row gutter={18}>
 								<Col span={2}></Col>
 								<Col span={10}>
-									<PCItems itemTitle="演示Demo三" itemSrc="" imgSrc="./src/images/web03.jpg" />
+									<PCItems itemTitle="小游戏Demo演示" itemSrc="" imgSrc="./src/images/game01.png" />
 								</Col>
 								<Col span={10}>
-									<PCItems itemTitle="演示Demo四" itemSrc="" imgSrc="./src/images/web04.png" />
+									<PCItems itemTitle="游戏案例展示" itemSrc="" imgSrc="./src/images/game02.jpg" />
+								</Col>
+								<Col span={2}></Col>
+							</Row>
+							<Row gutter={18}>
+								<Col span={2}></Col>
+								<Col span={10}>
+									<PCItems itemTitle="Demo演示案例三" itemSrc="" imgSrc="./src/images/web03.jpg" />
+								</Col>
+								<Col span={10}>
+									<PCItems itemTitle="Demo演示案例四" itemSrc="" imgSrc="./src/images/web04.png" />
 								</Col>
 								<Col span={2}></Col>
 							</Row>

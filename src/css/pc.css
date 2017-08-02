@@ -4,7 +4,7 @@
   height: 31px;
   /*background: red;*/
   border-radius: 6px;
-  margin: 16px 24px 16px 0;
+  margin: 16px 24px 16px 0px;
   float: left;
 }
 .logo p{
@@ -89,4 +89,29 @@
 /*页脚样式*/
 .footer{
 	text-align: center;
+}
+
+@media screen and (max-width: 1250px) {
+    .itemsBox{
+	    position: relative;
+	    width: 408px;
+	    padding: 32px 10px;
+	    margin: 10px;
+    }
+    .item .item-pic-box { 
+	    width: 312px;
+	    height: 200px;
+	}
+}
+@media screen and (max-width: 1160px) {
+    .itemsBox{
+	    position: relative;
+	    width: 340px;
+	    padding: 24px 0px;
+	    margin: 8px;
+    }
+    .item .item-pic-box { 
+	    width: 280px;
+	    height: 180px;
+	}
 }
